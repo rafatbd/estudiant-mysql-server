@@ -13,4 +13,3 @@ L'arquitectura que segueix aquest projecte és MVC i està fet en Node JS, Expre
 ## Diagrama de Mòdul del projecte
 ![image](https://user-images.githubusercontent.com/29677743/139540423-34949a11-b61e-4b86-90e1-1c1863c936c5.png)
 
-## Captures
