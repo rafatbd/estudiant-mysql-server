@@ -1,0 +1,152 @@
+html, body {
+  height: 100%;
+}
+
+#estudiants {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#estudiants td, #estudiants th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#estudiants tr:nth-child(even){background-color: #f2f2f2;}
+
+#estudiants tr:hover {background-color: #ddd;}
+
+#estudiants th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#facultats {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#facultats td, #facultats th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#facultats tr:nth-child(even){background-color: #f2f2f2;}
+
+#facultats tr:hover {background-color: #ddd;}
+
+#facultats th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#desplacaments {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#desplacaments td, #desplacaments th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#desplacaments tr:nth-child(even){background-color: #f2f2f2;}
+
+#desplacaments tr:hover {background-color: #ddd;}
+
+#desplacaments th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.white {
+  color: white;	
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput,#myInput2,#myInput3 {
+  background-image: url('../public/buscar.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#estudiants {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#estudiants th, #estudiants td {
+  text-align: left;
+  padding: 12px;
+}
+
+#estudiants tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#estudiants tr.header, #estudiants tr:hover {
+  background-color: #f1f1f1;
+}
+
+.right {
+  float: right;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
